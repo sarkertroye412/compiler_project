@@ -184,7 +184,7 @@ public:
             }
         }
 
-        tokens.push_back(Token(eof, "", line));
+        tokens.push_back(Token(eof_, "", line));
         return error;
     }
 };

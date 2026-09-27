@@ -210,7 +210,7 @@ public:
     // program ---> statements:
     Node* program() {
         vector<Node*> stmts;
-        while (currentTok() != nullptr && currentTok()->type_ != eof) {
+        while (currentTok() != nullptr && currentTok()->type_ != eof_) {
             Node* s = stmt();
             if (error != "") return nullptr;
             stmts.push_back(s);

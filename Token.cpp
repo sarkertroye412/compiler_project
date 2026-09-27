@@ -16,7 +16,7 @@ string mt = "গুণ";
 string div_ = "ভাগ";
 string lpr = "বাম_বন্ধনী";
 string rpr = "ডান_বন্ধনী";
-string eof = "শেষ";
+string eof_ = "শেষ";
 
 // notun token (new tokens) for if/else/while:
 string if_ = "যদি";          // if
